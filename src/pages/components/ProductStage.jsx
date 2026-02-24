@@ -22,7 +22,7 @@ function ProductStage({ imgUrl, doorControls }) {
       <motion.div
         className="relative rounded-2xl min-h-[800px] overflow-hidden transparent"
         initial="open" 
-        animate={doorControls}
+        animate={isLoaded ? doorControls : "closed"}
         variants={{
           open: { 
             width: "100%",
