@@ -29,7 +29,7 @@ function Carousel({ data, setModelDescription, doorControls }) {
 
   return (
     <div className="relative tablet:col-span-2 laptop:absolute laptop:min-h-[100px] laptop:bottom-0 w-full left-0 z-20">
-      <div className="w-full grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_400px] gap-3 h-[100px] place-content-center">
+      <div className="w-full grid grid-cols-[auto_1fr] md:grid-cols-[auto_1fr_400px] gap-3 laptop:h-[100px] place-content-center">
 
         {/* Navigation */}
         <div className="flex gap-1 h-[80px]">
