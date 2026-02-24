@@ -12,8 +12,9 @@ function usePreloadImage(src) {
   return loaded;
 }
 
-function ProductStage({ imgUrl, doorControls }) {
+function ProductStage({ imgUrl, doorControls, modelDescription }) {
   const isLoaded = usePreloadImage(imgUrl);
+
 
   return (
     <div className="relative p-10 flex justify-center row-span-2  ">
@@ -22,7 +23,7 @@ function ProductStage({ imgUrl, doorControls }) {
       <motion.div
         className="relative rounded-2xl min-h-[800px] overflow-hidden transparent"
         initial="open" 
-        animate={!isLoaded ? "closed" : doorControls}
+        animate={!isLoaded && modelDescription !== 0 ? "closed" : doorControls}
         variants={{
           open: { 
             width: "100%",

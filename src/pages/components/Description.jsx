@@ -39,7 +39,7 @@ function Description({ description, doorControls }) {
   };
   return (
     <motion.div 
-      className="w-full max-w-md max-tablet:glass-white max-tablet:p-2 rounded-sm"
+      className="w-full max-w-md max-tablet:glass-white max-tablet:p-2 rounded-sm tablet:h-100 laptop:place-content-center tablet:place-content-end"
       variants={doorContainerVariants}
       initial="open" 
       animate={doorControls}

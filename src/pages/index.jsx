@@ -157,7 +157,7 @@ function Homepage() {
       <div className="absolute inset-0 w-full bg-gradient-to-r from-black/40 to-black/10 blur-3xl -z-20" />
 
       <div className="flex justify-center mx-2 overflow-hidden relative">
-        <div className="relative grid grid-cols-1 max-[835px]:w-full tablet:grid-cols-2 tablet:grid-rows-[auto_1fr] laptop:grid-rows-1 laptop:grid-cols-3 laptop:items-center gap-8 justify-center items-start">
+        <div className="relative grid grid-cols-1 max-[835px]:w-full tablet:grid-cols-2 tablet:grid-rows-[auto_1fr] laptop:grid-rows-1 laptop:grid-cols-3 laptop:items-center gap-8 justify-center items-start py-4">
           {/* details */}
           <div className="flex flex-col justify-center tablet:relative tablet:place-items-start px-4 max-laptop:grid-rows-1 absolute inset-0 bottom-50 z-10" >
             <Description description={description} doorControls={doorControls}/>
@@ -167,7 +167,7 @@ function Homepage() {
           {/* dimension */}
            {/* place-self-start */}
 
-          <ProductStage imgUrl={imgUrl} doorControls={doorControls} />
+          <ProductStage imgUrl={imgUrl} doorControls={doorControls} modelDescription={modelDescription}/>
           <Dimension description={description} doorControls={doorControls} />
    
           <Carousel 

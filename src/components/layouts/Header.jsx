@@ -22,7 +22,7 @@ function Header() {
   };
 
   return (
-    <nav className=" fixed top-0 w-full z-50 glass px-6 py-4 border-b border-black/5">
+    <nav className=" fixed top-0 w-full z-50 glass-white px-6 py-4 border-b border-black/5">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-8">
           <h1 className="font-serif text-2xl font-bold tracking-widest">DRESSY</h1>
@@ -67,7 +67,7 @@ function Header() {
             animate="open"
             exit="closed"
             variants={menuVariants}
-            className="absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-b border-black/5 flex flex-col p-6 gap-6 md:hidden shadow-xl"
+            className="absolute top-full left-0 w-full glass-white backdrop-blur-md border-b border-black/5 flex flex-col p-6 gap-6 md:hidden shadow-xl"
           >
             {navLinks.map((link) => (
               <motion.a
