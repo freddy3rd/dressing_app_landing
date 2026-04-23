@@ -4,6 +4,7 @@ import Dimension from './components/Dimension'
 import Carousel from './components/Carousel'
 import ProductStage from './components/ProductStage'
 
+
 import mens_1 from "../assets/images/compressed/mens_1.webp"
 import mens_2 from "../assets/images/compressed/mens_2.webp"
 import mens_3 from "../assets/images/compressed/mens_3.webp"
