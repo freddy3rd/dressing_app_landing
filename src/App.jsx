@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Homepage from './pages'
 import Header from './components/layouts/Header'
+import SplashScreen from './components/ui/SplashScreen'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <SplashScreen/>
       <Header/>
       <Homepage/>
 
