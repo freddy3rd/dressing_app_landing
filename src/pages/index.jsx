@@ -4,13 +4,13 @@ import Dimension from './components/Dimension'
 import Carousel from './components/Carousel'
 import ProductStage from './components/ProductStage'
 
-import mens_1 from "../assets/images/compress/mens_1.webp"
-import mens_2 from "../assets/images/compress/mens_2.webp"
-import mens_3 from "../assets/images/compress/mens_3.webp"
-import mens_4 from "../assets/images/compress/mens_4.webp"
-import mens_5 from "../assets/images/compress/mens_5.webp"
-import mens_6 from "../assets/images/compress/mens_6.webp"
-import mens_7 from "../assets/images/compress/mens_7.webp"
+import mens_1 from "../assets/images/compressed/mens_1.webp"
+import mens_2 from "../assets/images/compressed/mens_2.webp"
+import mens_3 from "../assets/images/compressed/mens_3.webp"
+import mens_4 from "../assets/images/compressed/mens_4.webp"
+import mens_5 from "../assets/images/compressed/mens_5.webp"
+import mens_6 from "../assets/images/compressed/mens_6.webp"
+import mens_7 from "../assets/images/compressed/mens_7.webp"
 import { useAnimationControls } from 'framer-motion'
 
 let data = [
